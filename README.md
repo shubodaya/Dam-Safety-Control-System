@@ -83,4 +83,35 @@ The **Safety Critical Dam Control System** is designed to ensure the protection 
 The primary hazard considered in the system is **flooding**. The system uses a **Boolean Tree** to identify potential causes, such as structural failure, high pressure, and full gates releasing excess water.
 
 ### Minimal Cut Sets Formula:
+The **Minimal Cut Sets Formula** helps identify the critical events that can lead to the flooding scenario:
+((Seismic Event AND Condition) OR High Wind Speed OR Rainfall OR Snow)
 
+#### Explanation of the Formula:
+
+- **Seismic Event AND Condition**: A combination of seismic events and high pressure on the dam structure could lead to structural failure.
+  
+- **High Wind Speed**: High wind speeds can create waves, leading to increased pressure on the dam structure and potentially affecting water levels.
+
+- **Rainfall**: Excessive rainfall can significantly increase the water level behind the dam, leading to overflow risks.
+
+- **Snow**: Snowfall contributes to water inflow once it melts, which can elevate the water level and increase pressure on the dam.
+
+#### Purpose of Minimal Cut Sets
+
+This formula helps identify the minimal combination of conditions that lead to a failure. It allows the system to focus on monitoring and responding to these critical parameters to prevent catastrophic outcomes.
+
+---
+
+## Installation and Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/dam-control-system.git
+2. Install necessary dependencies for simulating the sensor data and gate operations.
+3. Run the system simulation for real-time response to environmental changes.
+
+---
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
