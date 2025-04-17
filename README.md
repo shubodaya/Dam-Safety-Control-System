@@ -1,3 +1,4 @@
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 # Safety Critical Dam Control System
 
 ## Overview
